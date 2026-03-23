@@ -1,0 +1,16 @@
+columns:
+- name: age
+  type: integer
+- name: anaemia
+  type: integer
+- name: diabetes
+  type: integer
+- name: high_blood_pressure
+  type: integer
+- name: serum_creatinine
+  type: float
+- name: smoking
+  type: integer
+- name: DEATH_EVENT
+  type: integer
+dataset: heart_failure

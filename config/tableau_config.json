@@ -1,0 +1,20 @@
+{
+  "datasource": "heart_failure_tableau.csv",
+  "extract": {
+    "enabled": true,
+    "type": "hyper"
+  },
+  "default_filters": {
+    "age_range": [40, 95],
+    "death_event": [0, 1]
+  },
+  "dashboards": [
+    "Demographic Overview",
+    "Mortality Analysis",
+    "Age vs Mortality Risk",
+    "Clinical Factors Impact"
+  ],
+  "refresh": {
+    "mode": "manual"
+  }
+}

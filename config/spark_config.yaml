@@ -1,0 +1,15 @@
+spark:
+  app:
+    name: HeartFailureBigDataPipeline
+  executor:
+    memory: 4g
+    cores: 2
+    instances: 2
+  driver:
+    memory: 2g
+  sql:
+    shuffle:
+      partitions: 200
+  serializer: org.apache.spark.serializer.KryoSerializer
+  default:
+    parallelism: 200

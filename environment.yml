@@ -1,0 +1,10 @@
+name: heart-failure-env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - pyspark
+      - pandas
+      - scikit-learn

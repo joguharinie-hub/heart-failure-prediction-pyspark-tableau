@@ -1,0 +1,20 @@
+[
+    {
+        "age": 65,
+        "anaemia": 1,
+        "diabetes": 0,
+        "high_blood_pressure": 1,
+        "serum_creatinine": 1.9,
+        "smoking": 0,
+        "DEATH_EVENT": 1
+    },
+    {
+        "age": 50,
+        "anaemia": 0,
+        "diabetes": 1,
+        "high_blood_pressure": 0,
+        "serum_creatinine": 1.1,
+        "smoking": 1,
+        "DEATH_EVENT": 0
+    }
+]
